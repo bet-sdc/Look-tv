@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" sizes="16x16" href="SVG/LookTv.png">
+    <meta charset="UTF-8">
+    <meta name="description" content="Look tv Movie Site">
+    <meta name="keywords" content="Look, Tv, Movie, Кино, Kino site,кино сайт">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="CSS/нэвтрэх.css">
+    <title>Look TV</title>
+</head>
+<body>
+    <header class="menu-header">
+       <a href="LookTv-Home.html"> <img src="HIMG/logo.png" alt="Logo"></a>
+      <nav class="main-menu">
+        <ul class="menu-list">
+          <li><a href="LookTv-HomeP.html">Нүүр</a></li>
+          <li><a href="LookTv-Bagts.html">Багц</a></li>
+          <li><a href="LookTv-Sale.html">Урамшуулал</a></li>
+          <li><a href="LookTv-Turees.html">Түрээсэлсэн</a></li>
+          <li><a href="Tv.html">ТВ</a></li>
+        </ul>
+        <div class="search-movie">
+          <select id="Select_Movie">
+            <option value="All">Бүх</option>
+            <option value="Mov">Киноны нэр</option>
+            <option value="act">Жүжигчин</option>
+            <option value="aut">Зохиолч</option>
+          </select>
+            <input type="text" placeholder="Кино, ТВ шоуг хайх" title="Хайх кино, ТВ-гээ оруулна уу">
+            <button type="submit" title="Хайх">Хайх</button>
+        </div>
+        <ul class="icon-list">
+          <li><img src="SVG/profile.svg" alt="profile" title="нэвтрээгүй байна"></li>
+          <li><img src="SVG/time.svg" alt="time" title="нэвтрээгүй байна"></li>
+          <li><img src="SVG/setting.svg" alt="setting" title="нэвтрээгүй байна"></li>
+          <li><img src="SVG/help.svg" alt="help" title="нэвтрээгүй байна"></li>
+          <li><a href="Login.html" class="icon-link"><img src="SVG/sign-in_1.svg" alt="sign-in" title="Нэвтрэх"></a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Нэвтрэх</h2>
+            <form action="LookTv-Home.html">
+            <input name="Email" id="Email" value="" type="email" placeholder="email or number"><br>
+            <input name="Passwd" id="Passwd" type="password" placeholder="password"><br>
+            <button id="Sign-in">Нэвтрэх</button>
+            </form>
+             <ul>
+                <li>
+                    <a id="forgot_password" href="#"> Нууц үгээ мартсан</a>
+                </li>
+            </ul>
+            <h3>Эсвэл</h3>
+            <input name="signIn" id="signIn" value="Facebook-н нэрээр" type="submit">
+            <form action="Бүртгүүлэх.html">
+                <input name="signIn" id="signup" value="Бүртгүүлэх" type="submit">
+            </form>
+        </article>
+        <div class="messenger">
+          <a href="#"><img src="SVG/chat.png" alt="Chat" title="Холбоо барина уу"></a>
+        </div>
+    </main>
+    <footer>
+      <nav class="foot-nav">
+        <article class="footer-nav">
+          <h2 class="footer-package">Багц</h2>
+          <a href="LookTv-Bagts.html">Хит цуврал</a>
+          <a href="LookTv-Bagts.html">Аниме</a>
+          <a href="LookTv-Bagts.html">HBO олон ангит</a>
+          <a href="LookTv-Bagts.html">Хүүхдийн багц</a>
+          <a href="LookTv-Bagts.html">Орос-Европ багц</a>
+        </article>
+        <article class="footer-nav">
+          <h2 class="footer-help">Тусламж</h2>
+            <a href="#">Холбоо барих</a>
+            <a href="#">Сошиал хуудас</a>
+            <a href="#">Онлайн хуудас</a>
+        <article class="footer-nav">
+          <h2 class="footer-regist">Бүртгэл</h2>
+            <a href="#">Нэвтрэх</a>
+            <a href="#">Нууц үг солих</a>
+        </article>
+        <article class="footer-nav">
+          <h2 class="footer-setting">Тохиргоо</h2>
+            <a href="#" title="Та нэвтрээгүй байна">Тохиргоо</a>
+            <a href="#">Хувийн мэдээлэл</a>
+            <a href="#">Имейл</a>
+        </article>
+        <article class="footer-nav">
+          <h2 class="footer-sale">Урамшуулал</h2> 
+          <a href="LookTv-Sale.html">Байнгын</a>
+          <a href="LookTv-Sale.html">Баяр ёслолын</a>
+        </article>
+      </nav>
+    </footer>
+</body>
+</html>

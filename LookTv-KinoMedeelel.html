@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" sizes="16x16" href="SVG/LookTv.png">
+    <meta charset="UTF-8">
+    <meta name="description" content="Look tv Movie Site">
+    <meta name="keywords" content="Look, Tv, Movie, Кино, Kino site,кино сайт">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="CSS/KinoMedeelel.css">
+    <title>Look TV</title>
+</head>
+<body>
+  <header class="menu-header">
+    <a href="LookTv-Home.html"> <img class="logo" src="HIMG/logo.png" alt="Logo"></a>
+    <nav class="main-menu">
+      <ul class="menu-list">
+        <li><a href="LookTv-Home.html">Нүүр</a></li>
+        <li><a href="LookTv-Bagts.html">Багц</a></li>
+        <li><a href="LookTv-Sale.html">Урамшуулал</a></li>
+        <li><a href="LookTv-Turees.html">Түрээсэлсэн</a></li>
+        <li><a href="Tv.html">ТВ</a></li>
+      </ul>
+      <div class="search-movie">
+        <select id="Select_Movie">
+          <option value="All">Бүх</option>
+          <option value="Mov">Киноны нэр</option>
+          <option value="act">Жүжигчин</option>
+          <option value="aut">Зохиолч</option>
+        </select>
+          <input type="text" placeholder="Кино, ТВ шоуг хайх" title="Хайх кино, ТВ-гээ оруулна уу">
+          <button type="submit" title="Хайх">Хайх</button>
+      </div>
+      <ul class="icon-list">
+        <li><a href="information.html" class="icon-information"><img src="SVG/profile.svg"  alt="profile" title="Мэдээлэл"></a></li>
+          <li><a href="Контент.html" class="icon-content"><img src="SVG/time.svg" alt="time" title="Контент үзсэн түүх"></a></li>
+          <li><a href="Settings.html" class="icon-settings"><img src="SVG/setting.svg" alt="setting" title="Тохиргоо"></a></li>
+          <li><a href="Help.html" class="icon-help"><img src="SVG/help.svg" alt="help" title="Тусламж"></a></li>
+          <li><a href="LookTv-Login.html" class="icon-link"><img src="SVG/sign-out.svg" alt="sign-out" title="Гарах"></a></li></ul>
+    </nav>
+  </header>
+  <main>
+    <div class="information">
+      <img src="Information/7.jpg" alt="Хар_сувдны_нууц" title="Хар сувдны нууц">
+      <div class="angilal">
+        <p class="Title">Хар сувдны нууц</p>
+        <ul>
+          <li>Төрөл &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p class="title_des">Adventure, Animation, Action</p></li>
+          <li>Найруулагч<p class="title_des">Ц. Амартүвшин</p></li>
+          <li>Жүжигчид&nbsp;&nbsp;<p class="title_des">Д.Дэлгэрсайхан, У.Цогтбаяр, М.Намуунцэцэг, Г. Алтаншагай, Б.Жамъяандорж, Ш.Энхжаргал ...</p></li>
+          <li>Хугацаа&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p class="title_des">1 цаг 39 минут</p></li>
+        </ul>
+        <button class="now">Үзэх</button>
+        <button class="burden">Дараа үзэх</button>
+      </div>
+      <div class="Description">
+        <h3>Товч агуулга</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, cum voluptatem ipsum nam corrupti assumenda rem tempore laborum in, facilis distinctio explicabo magnam saepe sed autem, dolore iusto placeat. Magni architecto, iste voluptatum quis eaque
+        </p>
+      </div>
+    </div>
+    <section class="trailer">
+      <video width="800" height="400" controls autoplay muted>
+          <source src="Movie/Хар_сувдны_нууц.mp4" type="video/mp4">
+          <source src="Movie/Хар_сувдны_нууц.ogg" type="video/ogg">
+      </video>
+    </section>
+    <div class="messenger">
+      <a href="#"><img src="SVG/chat.png" alt="Chat" title="Холбоо барина уу"></a>
+    </div>
+  </main>
+  <footer>
+    <nav class="foot-nav">
+      <article class="footer-nav">
+        <h2 class="footer-package">Багц</h2>
+        <p><a href="LookTv-Bagts.html">Хит цуврал</a></p>
+        <p><a href="LookTv-Bagts.html">Аниме</a></p>
+        <p><a href="LookTv-Bagts.html">HBO олон ангит</a></p>
+        <p><a href="LookTv-Bagts.html">Хүүхдийн багц</a></p>
+        <p><a href="LookTv-Bagts.html">Орос-Европ багц</a></p>
+      </article>
+      <article class="footer-nav">
+          <h2 class="footer-help">Тусламж</h2>
+          <p><a href="#">Холбоо барих</a></p>
+          <p><a href="#">Сошиал хуудас</a></p>
+          <p><a href="#">Онлайн хуудас</a></p>
+      </article>
+      <article class="footer-nav">
+          <h2 class="footer-regist">Бүртгэл</h2>
+          <p><a href="LookTV-Login.html">Гарах</a></p>
+          <p><a href="#">Нууц үг солих</a></p>
+      </article>
+      <article class="footer-nav">
+        <h2 class="footer-setting">Тохиргоо</h2>
+        <p><a href="Settings.html">Тохиргоо</a></p>
+        <p><a href="information.html">Хувийн мэдээлэл</a></p>
+        <p><a href="#">Имейл</a></p>
+      </article>
+      <article class="footer-nav">
+          <h2 class="footer-sale">Урамшуулал</h2>
+          <p><a href="LookTv-Sale.html">Байнгын</a></p>
+          <p><a href="LookTv-Sale.html">Баяр ёслолын</a></p>
+      </article>
+    </nav>
+  </footer>
+</body>
+</html>
